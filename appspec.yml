@@ -17,7 +17,7 @@ permissions:
 hooks:
   BeforeInstall:
     - location: scripts/webserver-stop.sh
-    - location: script/delete-old-index.sh
+    - location: scripts/delete-old-index.sh
   AfterInstall:
     - location: scripts/sleep.sh
     - location: scripts/webserver-start.sh
